@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("rock.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.nav_bar{
+    display: flex;
+    margin-top: 20px;
+}
+.nav_bar h3{
+    padding-left: 30px;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    font-family: 'Roboto Slab', serif;
+}
+.list{
+    margin-left: 200px;
+}
+.list ul{
+    display: flex;
+}
+.list ul li{
+    margin-top: 12px;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+}
+.list ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 75);;
+}
+.list ul li a:hover{
+    color: rgb(131, 131, 247);
+    border-bottom: 2px solid rgb(131, 131, 247);
+}
+.list_signin{
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.list_signin a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(2, 2, 75);
+    font-family: 'Roboto Slab', serif;
+}
+.list_signin img{
+    padding-right: 20px;
+    padding-left: 30px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+.list_signin a:hover{
+    color: rgb(131, 131, 247);
+    border-bottom: 2px solid rgb(131, 131, 247);
+}
+.content_main{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+.content_main h1{
+    color: rgb(2, 2, 75);
+    font-size: 120px;
+    font-family: 'Roboto Slab', serif;
+}
+.content_main h3{
+    color: rgb(2, 2, 75);
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+hr{
+    margin-top: 20px;
+    width: 65px;
+    border: 2px solid rgb(49, 111, 243);
+}
+.content_main p{
+    margin-top: 30px;
+    color: rgb(80, 80, 80);
+    font-family: 'Roboto Slab', serif;
+}
+.buttons{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+.buttons button{
+    background-color: rgb(49, 111, 243);
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#btn_learn{
+    background-color: white;
+    color: rgb(49, 111, 243);
+    border: 2px solid rgb(49, 111, 243);
+    margin-left: 20px;
+}
